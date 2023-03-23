@@ -9,7 +9,6 @@ import jsonpath
 # import allure
 import pytest"""
 
-
 '''
 Data         =====》数据存放[page分离元素，测试用例数据]
 Data_Loader  =====》自定义数据处理
