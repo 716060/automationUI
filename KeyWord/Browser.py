@@ -3,7 +3,7 @@
 # @AUTHOR:希耶谢
 
 '''
-对浏览器的封装
+对浏览器操作的一些封装
 '''
 
 from selenium.webdriver.support import expected_conditions as EC
