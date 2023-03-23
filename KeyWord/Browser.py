@@ -132,28 +132,51 @@ class BrowserAct():
             "border: 2px solid green;"  # 边框，green绿色
         )
 
-    # 查找元素 + 显示等待  单数
-    def find_ele(self, by, value):
+    # 查找元素 + 元素存在dom树显性等待  单数
+    def ele_presence_wait(self, by, value):
         locator = (by, value)
         ele = self.wait.until(EC.presence_of_element_located(locator))
         self.locator_station(ele)  # 框出元素定位的位置
         return ele
 
-    # 查找元素 + 显示等待  复数
-    def find_eles(self, by, value):
+    # 查找元素 + 元素存在dom树显性等待  复数
+    def eles_presence_wait(self, by, value):
         locator = (by, value)
         eles = self.wait.until(EC.presence_of_all_elements_located(locator))
         return eles
 
+    # 查找元素 + 元素存在dom树 且可见 显性等待  单数
+    def ele_visibility_wait(self, by, value):
+        locator = (by, value)
+        self.wait.until(EC.visibility_of_element_located(locator))
+        ele = self.driver.find_element(by, value)
+        self.locator_station(ele)  # 框出元素定位的位置
+        return ele
+
+    # 查找元素 + 元素存在dom树 且可见 显性等待  复数
+    def eles_visibility_wait(self, by, value):
+        locator = (by, value)
+        self.wait.until(EC.visibility_of_any_elements_located(locator))
+        eles = self.driver.find_element(by, value)
+        self.locator_station(eles)  # 框出元素定位的位置
+        return eles
+
+    # 元素text包含指定字符串判断 显性等待
+    def ele_text_wait(self, by, value, text):
+        ele = (by, value)
+        result = self.wait.until(ec.text_to_be_present_in_element(ele, text))
+        return result
+
+    # 元素value包含指定字符串判断 显性等待
+    def ele_value_wait(self, by, value, text):
+        ele = (by, value)
+        result = self.wait.until(ec.text_to_be_present_in_element_value(ele, text))
+        return result
+
     # 元素截屏
     def ele_screenshot(self, by, value, filename):
-        self.find_ele(by, value).screenshot(filename)
-
-    # 元素文本显性等待
-    def text_wait(self, name, value, txt):
-        ele = (name, value)
-        result = self.wait.until(ec.text_to_be_present_in_element(ele, txt))
-        return result
+        ele = self.find_ele(by, value)
+        ele.screenshot(filename)
 
     # 鼠标长按
     def mouse_hold(self, by, value):
@@ -167,3 +190,7 @@ class BrowserAct():
     # 鼠标悬停
     def mouse(self, by, value):
         self.action.move_to_element(self.find_ele(by, value)).perform()
+
+    # 鼠标双击
+    def mouse_double(self, by, value):
+        self.action.double_click(self.find_ele(by, value)).perform()
