@@ -6,17 +6,16 @@ from Data_Load.page_data import create_data
 from KeyWord.Browser import BrowserAct
 
 
-@create_data(r"D:\Pycharm\Selenium+unittest框架\data\test.xlsx", "baidu_more")
-class More_page():
+@create_data(r"D:\Pycharm\selenium+pytest框架\Data\test_baidu.xlsx", "baidu_more")
+class More_page(BrowserAct):
     class Button:
         pass
 
     class Input:
         pass
 
-    def __init__(self, driver):
-        self.d = BrowserAct(driver)
-
     # 选择 百度翻译
     def translate(self):
-        self.d.find_ele(*self.Button.translate).click()
+        self.ele_presence_wait(*self.Button.translate).click()
+
+
