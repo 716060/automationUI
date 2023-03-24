@@ -8,6 +8,7 @@ import openpyxl
 import jsonpath
 # import allure
 import pytest"""
+import pytest
 
 '''
 Data         =====》数据存放[page分离元素，测试用例数据]
@@ -16,3 +17,5 @@ KeyWord      =====》关键字封装[浏览器相关封装，数据库操作封�
 Page         =====》PO页面
 TestCase     =====》用例存放
 '''
+if __name__ == '__main__':
+    pytest.main(['-vs'])
