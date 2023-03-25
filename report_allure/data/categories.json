@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: 断言失败信息\nassert 'https://www.baidu.com/' == '1https://www.baidu.com/'\n  - 1https://www.baidu.com/\n  ? -\n  + https://www.baidu.com/",
+      "children" : [ {
+        "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
+        "uid" : "5a0d2f33d10d70c0",
+        "parentUid" : "bee94437c8cd333b8068be26bdce39ff",
+        "status" : "failed",
+        "time" : {
+          "start" : 1679755111669,
+          "stop" : 1679755139109,
+          "duration" : 27440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'数学'", "'数学'" ]
+      } ],
+      "uid" : "bee94437c8cd333b8068be26bdce39ff"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,41 @@
+{
+  "58b75f738749a691da9c63b30ce95aa1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "54ebd1c5829ac6cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1679755143730,
+        "stop" : 1679755144742,
+        "duration" : 1012
+      }
+    } ]
+  },
+  "c2f7636096bf0ef91e32e89891c8e51f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a0d2f33d10d70c0",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: 断言失败信息\nassert 'https://www.baidu.com/' == '1https://www.baidu.com/'\n  - 1https://www.baidu.com/\n  ? -\n  + https://www.baidu.com/",
+      "time" : {
+        "start" : 1679755111669,
+        "stop" : 1679755139109,
+        "duration" : 27440
+      }
+    } ]
+  }
+}

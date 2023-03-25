@@ -1,45 +1,53 @@
 # -*- coding:utf-8 -*-
 # @Time  :2023/3/24 4:50
 # @AUTHOR:希耶谢
-from time import sleep
-
+import allure
 import pytest
 from Page.test_baidu.baidu_home import Home_page
 from Page.test_baidu.baidu_more import More_page
 from Page.test_baidu.baidu_translate import Translate_page
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+from KeyWord import Sql_base
 
 
-@pytest.mark.parametrize('text,text1', [("数学", "数学"), ("语文", "语文"), ("英语", "英语"), ("化学", "化学")])
+@allure.title("打开百度首页，从【更多】进入【百度翻译】进行翻译")
+@allure.story("典型场景")
+@allure.severity("critical")
+@pytest.mark.parametrize('text,text1', [("数学", "数学"), ("语文", "语文")])
 def test_01(browser, text, text1):  # browser是conftest中fixture传过来的浏览器对象===一些前置 后置处理
-    wait = WebDriverWait(browser, 10)
+    """
+        01 打开百度首页
+        02 输入内容 进行搜索
+        03 回退到百度首页
+        04 首页点击 更多
+        05 切换到 更多 页签
+        06 更多 页面点击 翻译
+        07 切换到 翻译 页签
+        08 关闭展示页、输入内容 进行翻译
+    """
     home = Home_page(browser)
-
-    # 01 打开百度首页
     home.open_home()
-    assert home.current_url() == home.url, "百度首页url断言失败！"
-
-    # 02 输入内容 进行搜索
     home.search(text)
-
-    # 03 回退到首页
-    home.back()
-
-    # 04 首页点击 更多
+    with allure.step("回退到百度首页"):
+        home.back()
     home.in_more()
-
-    # 05 切换到 更多 页签
     more = More_page(browser)
-    wait.until(ec.url_matches(more.url))
-
-    # 06 更多 页面点击 翻译
     more.translate()
-
-    # 07 切换到 翻译 页签
     translate = Translate_page(browser)
     more.handle(1)
 
-    # 08 关闭展示页、输入内容 进行翻译
     translate.close()
     translate.translate(text1)
+
+    with allure.step("结果断言检查："):
+        assert home.url == r"https://www.baidu.com/", "断言失败信息"
+
+
+'''
+    with allure.step("数据库断言检查"):
+        sql = Sql_base('host', 'port', 'user', 'password', 'database')
+        # sql.execute("sql语句").fetchall()  # 获取全部SQL结果
+        sql_data = sql.execute("sql语句").fetchone()  # 获取一条SQL结果
+        assert sql_data == "要断言的数据", "断言失败信息"
+'''

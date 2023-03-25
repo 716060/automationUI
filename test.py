@@ -8,6 +8,8 @@ import openpyxl
 import jsonpath
 # import allure
 import pytest"""
+import os
+
 import pytest
 
 '''
@@ -17,5 +19,16 @@ KeyWord      =====》关键字封装[浏览器相关封装，数据库操作封�
 Page         =====》PO页面
 TestCase     =====》用例存放
 '''
+
+
+# if __name__ == '__main__':
+#     pytest.main(['-vs','./TestCase/test_case_01.py'])
+
+
+def run():
+    pytest.main(['-vs', '--alluredir', './result', '--clean-alluredir'])
+    os.system('allure generate ./result/ -o ./report_allure/ --clean')
+
+
 if __name__ == '__main__':
-    pytest.main(['-vs'])
+    run()

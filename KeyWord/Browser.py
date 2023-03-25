@@ -23,8 +23,8 @@ class BrowserAct():
         return self.__d.maximize_window()
 
     # 浏览器进行截屏
-    def screenshot(self, file_name):
-        self.__d.get_screenshot_as_file(file_name)
+    def screenshot(self):
+        return self.__d.get_screenshot_as_png()
 
     # 打开新的url + 显性等待
     def open(self, url):

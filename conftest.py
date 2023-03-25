@@ -10,11 +10,13 @@ import allure
 # fixture 浏览器前置操作
 @pytest.fixture()
 def browser():
-    global driver
-    driver = webdriver.Chrome()
-    driver.maximize_window()
+    with allure.step("浏览器前置操作：打开浏览器，窗口最大化"):
+        global driver
+        driver = webdriver.Chrome()
+        driver.maximize_window()
     yield driver
-    driver.quit()
+    with allure.step("浏览器后置操作：退出浏览器"):
+        driver.quit()
 
 
 # 钩子函数，实现异常截图

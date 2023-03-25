@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCase",
+    "children" : [ {
+      "name" : "test_case_01",
+      "children" : [ {
+        "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
+        "uid" : "5a0d2f33d10d70c0",
+        "parentUid" : "4405eb162e9b468a459a023d3b71c146",
+        "status" : "failed",
+        "time" : {
+          "start" : 1679755111669,
+          "stop" : 1679755139109,
+          "duration" : 27440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'数学'", "'数学'" ]
+      } ],
+      "uid" : "4405eb162e9b468a459a023d3b71c146"
+    } ],
+    "uid" : "ee79ae265a842e48c4df30f006daaf4e"
+  }, {
+    "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
+    "uid" : "54ebd1c5829ac6cb",
+    "parentUid" : "98d3104e051c652961429bf95fa0b5d6",
+    "status" : "passed",
+    "time" : {
+      "start" : 1679755143730,
+      "stop" : 1679755144742,
+      "duration" : 1012
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "'语文'", "'语文'" ]
+  } ]
+}
