@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="884019f3-9cc8-4862-90ce-141c816c2dde" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyWord/Browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/KeyWord/Browser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/test_baidu/baidu_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/test_baidu/baidu_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/test_baidu/baidu_more.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/test_baidu/baidu_more.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/test_baidu/baidu_translate.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/test_baidu/baidu_translate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_case_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_case_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -201,7 +194,7 @@
       <workItem from="1679596667360" duration="914000" />
       <workItem from="1679598671596" duration="8046000" />
       <workItem from="1679673686749" duration="3085000" />
-      <workItem from="1679754147377" duration="1116000" />
+      <workItem from="1679754147377" duration="2607000" />
     </task>
     <servers />
   </component>
