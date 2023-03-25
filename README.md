@@ -1,15 +1,15 @@
 # pytest + allure + selenium + yaml + excel ---- UI自动化框架
 
-
-1. allure：生成报告
+### 框架分层介绍
+1. 报告层：allure
 - 使用Allure内置功能，实现用例执行结果统计、日志收集、错误截图等功能；
 - 可生成精确到每一个测试步骤的详细测试报告，提高UI自动化测试过程中问题定位效率。
-2. selenium：关键字封装
+2. 关键字封装层：selenium
 - 基于Selenium，使用PO模式对UI页面进行封装，将页面元素分类，使用excel或yaml文件进行集中管理，实现流程复用
-3. pytest：用例控制管理
+3. 用例管理控制层：pytest
 - 引用已封装好的关键字和业务流程，进行用例编写
 - 基于Pytest,实现用例分组排序、失败重跑、用例跳过、前置后置等功能、使用pytest钩子函数实现异常截图
-4. yaml + excel：数据管理
+4. 数据管理：yaml 、 excel 、 json
 - 使用yaml、json、excel进行数据管理，包括pom页面分离出来的元素数据和用例数据
 
 
