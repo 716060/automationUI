@@ -1,0 +1,267 @@
+{
+  "uid" : "735b0ee66388c725",
+  "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
+  "fullName" : "TestCase.test_case_01#test_01",
+  "historyId" : "b5b540287f808378248dab0f4ebbc1de",
+  "time" : {
+    "start" : 1680439540800,
+    "stop" : 1680439592071,
+    "duration" : 51271
+  },
+  "description" : "\n        01 打开百度首页\n        02 输入内容 进行搜索\n        03 回退到百度首页\n        04 首页点击 更多\n        05 切换到 更多 页签\n        06 更多 页面点击 翻译\n        07 切换到 翻译 页签\n        08 关闭展示页、输入内容 进行翻译\n    ",
+  "descriptionHtml" : "<pre><code>    01 打开百度首页\n    02 输入内容 进行搜索\n    03 回退到百度首页\n    04 首页点击 更多\n    05 切换到 更多 页签\n    06 更多 页面点击 翻译\n    07 切换到 翻译 页签\n    08 关闭展示页、输入内容 进行翻译\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser",
+    "time" : {
+      "start" : 1680439538761,
+      "stop" : 1680439540797,
+      "duration" : 2036
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "浏览器前置操作：打开浏览器，窗口最大化",
+      "time" : {
+        "start" : 1680439538762,
+        "stop" : 1680439540797,
+        "duration" : 2035
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        01 打开百度首页\n        02 输入内容 进行搜索\n        03 回退到百度首页\n        04 首页点击 更多\n        05 切换到 更多 页签\n        06 更多 页面点击 翻译\n        07 切换到 翻译 页签\n        08 关闭展示页、输入内容 进行翻译\n    ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "进入百度首页",
+      "time" : {
+        "start" : 1680439540801,
+        "stop" : 1680439544028,
+        "duration" : 3227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "进行百度搜索,截图",
+      "time" : {
+        "start" : 1680439544029,
+        "stop" : 1680439544463,
+        "duration" : 434
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8c9a47d624cfd633",
+        "name" : "数学:搜索页面截屏",
+        "source" : "8c9a47d624cfd633.png",
+        "type" : "image/png",
+        "size" : 33821
+      } ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'数学'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    }, {
+      "name" : "回退到百度首页",
+      "time" : {
+        "start" : 1680439544463,
+        "stop" : 1680439544472,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击进入 更多",
+      "time" : {
+        "start" : 1680439544472,
+        "stop" : 1680439546889,
+        "duration" : 2417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击 百度翻译",
+      "time" : {
+        "start" : 1680439546889,
+        "stop" : 1680439547025,
+        "duration" : 136
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "关闭展示页面",
+      "time" : {
+        "start" : 1680439547040,
+        "stop" : 1680439591471,
+        "duration" : 44431
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "输入原文进行翻译",
+      "time" : {
+        "start" : 1680439591471,
+        "stop" : 1680439592071,
+        "duration" : 600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "text",
+        "value" : "'数学'"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "结果断言检查：",
+      "time" : {
+        "start" : 1680439592071,
+        "stop" : 1680439592071,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "browser::0",
+    "time" : {
+      "start" : 1680439592073,
+      "stop" : 1680439594385,
+      "duration" : 2312
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "浏览器后置操作：退出浏览器",
+      "time" : {
+        "start" : 1680439592073,
+        "stop" : 1680439594385,
+        "duration" : 2312
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "典型场景"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_01"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-5Q37VTE"
+  }, {
+    "name" : "thread",
+    "value" : "9500-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCase.test_case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{'text': '数学', 'text1': '数学'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "735b0ee66388c725.json",
+  "parameterValues" : [ "{'text': '数学', 'text1': '数学'}" ]
+}

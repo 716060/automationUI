@@ -1,0 +1,14 @@
+[
+  {
+    "type": "url",
+    "name": "",
+    "selector": "",
+    "value": "https://www.baidu.com/more/"
+  },
+  {
+    "type": "button",
+    "name": "translate",
+    "selector": "link text",
+    "value": "百度翻译"
+  }
+]

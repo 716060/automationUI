@@ -6,6 +6,9 @@ import yaml
 
 # 使用yaml管理用例数据
 def load_yaml(path):
-    file = open(path, 'r', encoding='utf-8')
-    data = yaml.load(file, Loader=yaml.FullLoader)
+    with open(path, 'r', encoding='utf-8') as f:
+        data = yaml.load(f, Loader=yaml.FullLoader)
     return data
+
+if __name__ == '__main__':
+    print(load_yaml(r"../Data/testcase_data/test_case_01.yaml"))

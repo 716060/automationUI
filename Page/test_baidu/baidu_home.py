@@ -7,7 +7,7 @@ from KeyWord.Browser import BrowserAct
 import allure
 
 
-@create_data(r"D:\Pycharm\selenium+pytest框架\Data\test_baidu.xlsx", "baidu_home")
+@create_data(r"D:\Pycharm\selenium+pytest框架\Data\page_data\test_baidu.xlsx", "baidu_home")
 class Home_page(BrowserAct):
     class Button:
         pass

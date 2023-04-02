@@ -1,0 +1,26 @@
+[
+  {
+    "type": "url",
+    "name": "",
+    "selector": "",
+    "value": "https://www.baidu.com/"
+  },
+  {
+    "type": "input",
+    "name": "search",
+    "selector": "css selector",
+    "value": "input#kw"
+  },
+  {
+    "type": "button",
+    "name": "search",
+    "selector": "css selector",
+    "value": "input#su"
+  },
+  {
+    "type": "button",
+    "name": "more",
+    "selector": "link text",
+    "value": "更多"
+  }
+]

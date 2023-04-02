@@ -1,5 +1,5 @@
 {
-  "58b75f738749a691da9c63b30ce95aa1" : {
+  "b5b540287f808378248dab0f4ebbc1de" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,32 +9,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "54ebd1c5829ac6cb",
+      "uid" : "735b0ee66388c725",
       "status" : "passed",
       "time" : {
-        "start" : 1679755143730,
-        "stop" : 1679755144742,
-        "duration" : 1012
+        "start" : 1680439540800,
+        "stop" : 1680439592071,
+        "duration" : 51271
       }
     } ]
   },
-  "c2f7636096bf0ef91e32e89891c8e51f" : {
+  "0b707f041caeab15e95358e80846a678" : {
     "statistic" : {
-      "failed" : 1,
+      "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5a0d2f33d10d70c0",
-      "status" : "failed",
-      "statusDetails" : "AssertionError: 断言失败信息\nassert 'https://www.baidu.com/' == '1https://www.baidu.com/'\n  - 1https://www.baidu.com/\n  ? -\n  + https://www.baidu.com/",
+      "uid" : "7147c6e4c31c4022",
+      "status" : "passed",
       "time" : {
-        "start" : 1679755111669,
-        "stop" : 1679755139109,
-        "duration" : 27440
+        "start" : 1680439600162,
+        "stop" : 1680439656083,
+        "duration" : 55921
       }
     } ]
   }

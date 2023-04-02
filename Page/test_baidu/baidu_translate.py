@@ -2,12 +2,11 @@
 # @Time  :2023/3/24 2:38
 # @AUTHOR:希耶谢
 import allure
-
 from Data_Load.page_data import create_data
 from KeyWord.Browser import BrowserAct
 
 
-@create_data(r"D:\Pycharm\selenium+pytest框架\Data\test_baidu.xlsx", "baidu_translate")
+@create_data(r"D:\Pycharm\selenium+pytest框架\Data\page_data\test_baidu.xlsx", "baidu_translate")
 class Translate_page(BrowserAct):
     class Button:
         pass

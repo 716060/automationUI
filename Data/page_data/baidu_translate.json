@@ -1,0 +1,32 @@
+[
+  {
+    "type": "url",
+    "name": "",
+    "selector": "",
+    "value": "https://fanyi.baidu.com/"
+  },
+  {
+    "type": "input",
+    "name": "translate_text",
+    "selector": "css selector",
+    "value": "textarea#baidu_translate_input"
+  },
+  {
+    "type": "button",
+    "name": "translate_button",
+    "selector": "css selector",
+    "value": "a#translate-button"
+  },
+  {
+    "type": "input",
+    "name": "translate_output",
+    "selector": "css selector",
+    "value": "p.ordinary-output.target-output"
+  },
+  {
+    "type": "button",
+    "name": "close",
+    "selector": "css selector",
+    "value": "span.app-guide-close"
+  }
+]

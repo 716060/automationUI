@@ -6,6 +6,7 @@ import pytest
 from Page.test_baidu.baidu_home import Home_page
 from Page.test_baidu.baidu_more import More_page
 from Page.test_baidu.baidu_translate import Translate_page
+from Data_Load.case_data import load_yaml
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from KeyWord import Sql_base
@@ -14,8 +15,8 @@ from KeyWord import Sql_base
 @allure.title("打开百度首页，从【更多】进入【百度翻译】进行翻译")
 @allure.story("典型场景")
 @allure.severity("critical")
-@pytest.mark.parametrize('text,text1', [("数学", "数学"), ("语文", "语文")])
-def test_01(browser, text, text1):  # browser是conftest中fixture传过来的浏览器对象===一些前置 后置处理
+@pytest.mark.parametrize('data', load_yaml(r"D:\Pycharm\selenium+pytest框架\Data\testcase_data\test_case_01.yaml"))
+def test_01(browser, data):  # browser是conftest中fixture传过来的浏览器对象===一些前置 后置处理
     """
         01 打开百度首页
         02 输入内容 进行搜索
@@ -28,7 +29,7 @@ def test_01(browser, text, text1):  # browser是conftest中fixture传过来的�
     """
     home = Home_page(browser)
     home.open_home()
-    home.search(text)
+    home.search(data["text"])
     with allure.step("回退到百度首页"):
         home.back()
     home.in_more()
@@ -38,7 +39,7 @@ def test_01(browser, text, text1):  # browser是conftest中fixture传过来的�
     more.handle(1)
 
     translate.close()
-    translate.translate(text1)
+    translate.translate(data["text1"])
 
     with allure.step("结果断言检查："):
         assert home.url == r"https://www.baidu.com/", "断言失败信息"

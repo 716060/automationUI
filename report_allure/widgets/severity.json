@@ -1,21 +1,21 @@
 [ {
-  "uid" : "54ebd1c5829ac6cb",
+  "uid" : "7147c6e4c31c4022",
   "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
   "time" : {
-    "start" : 1679755143730,
-    "stop" : 1679755144742,
-    "duration" : 1012
+    "start" : 1680439600162,
+    "stop" : 1680439656083,
+    "duration" : 55921
   },
   "status" : "passed",
-  "severity" : "normal"
+  "severity" : "critical"
 }, {
-  "uid" : "5a0d2f33d10d70c0",
+  "uid" : "735b0ee66388c725",
   "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
   "time" : {
-    "start" : 1679755111669,
-    "stop" : 1679755139109,
-    "duration" : 27440
+    "start" : 1680439540800,
+    "stop" : 1680439592071,
+    "duration" : 51271
   },
-  "status" : "failed",
+  "status" : "passed",
   "severity" : "critical"
 } ]
