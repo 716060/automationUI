@@ -9,6 +9,7 @@ import xlrd
 
 '''
 类装饰器，将分离出来的POM页面元素加载进page对象中
+excel、yaml、json格式
 '''
 
 

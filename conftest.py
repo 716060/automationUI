@@ -12,8 +12,16 @@ import allure
 def browser():
     with allure.step("浏览器前置操作：打开浏览器，窗口最大化"):
         global driver
+        '''
+        Chrome 无头模式设置
+        opts = webdriver.ChromeOptions
+        opts.add_argument("headless")
+        driver = webdriver.Chrome(options=opts)
+        driver.set_window_size(x,y)  #无头模式====设置窗口大小
+        '''
         driver = webdriver.Chrome()
-        driver.maximize_window()
+        driver.maximize_window()  # 窗口最大化
+        driver.title
     yield driver
     with allure.step("浏览器后置操作：退出浏览器"):
         driver.quit()

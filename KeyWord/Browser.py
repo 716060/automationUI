@@ -6,7 +6,7 @@
 对浏览器操作的一些封装、关键字封装
 '''
 
-from selenium.webdriver import ActionChains, Keys  # 键盘和鼠标操作
+from selenium.webdriver import ActionChains, Keys  # 键盘Keys和鼠标ActionChains操作
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 
@@ -22,6 +22,10 @@ class BrowserAct():
     def max(self):
         return self.__d.maximize_window()
 
+    # 全屏窗口
+    def full(self):
+        return self.__d.fullscreen_window()
+
     # 浏览器进行截屏
     def screenshot(self):
         return self.__d.get_screenshot_as_png()
@@ -32,8 +36,14 @@ class BrowserAct():
         self.__wait.until(ec.url_contains(url))
 
     # 获取当前页面url
+    @property
     def current_url(self):
         return self.__d.current_url
+
+    # 获取当前页面title
+    @property
+    def title(self):
+        return self.__d.title
 
     # 前进
     def forward(self):
@@ -56,6 +66,10 @@ class BrowserAct():
     def frame(self, frame):
         self.__switch.frame(frame)
 
+    # frame 等待==加载frame，是否可以switch进去(加载完成=》自动switch进去)
+    def frame(self, frame):
+        self.__wait.until(ec.frame_to_be_available_and_switch_to_it(frame))
+
     # 退出iframe
     def exit_frame(self):
         self.__switch.default_content()
@@ -67,8 +81,7 @@ class BrowserAct():
     # alert 显性等待  弹窗切换
     @property
     def to_alert(self):
-        self.__wait.until(ec.alert_is_present())  # 弹窗 显性等待
-        return self.__switch.alert
+        self.__wait.until(ec.alert_is_present())  # 弹窗 显性等待==自动切换进alert。return driver.switch_to.alert
 
     def alert_accept(self):
         self.to_alert.accept()
@@ -79,9 +92,14 @@ class BrowserAct():
     def alert_send_keys(self, values):
         self.to_alert.send_keys(values)
 
+    # 获取弹窗文本内容
+    @property
+    def alert_text(self):
+        return self.to_alert.text
+
     # handles,页签、句柄切换
     def handle(self, n):  # 切换下标为n的页签
-        handles = self.__d.window_handles
+        handles = self.__d.window_handles  # 获取所有句柄
         return self.__switch.window(handles[n])
 
     # 执行JS语句显示元素定位位置，方便确认位置
@@ -140,21 +158,72 @@ class BrowserAct():
         ele = self.ele_presence_wait(by, value)
         ele.screenshot(filename)
 
-    # 鼠标长按
+    # 鼠标左击长按  click_and_hold(ele)
     def mouse_hold(self, by, value):
         ele = self.ele_presence_wait(by, value)
         self.__action.click_and_hold(ele).perform()
 
-    # 鼠标释放
+    # 鼠标释放   release()
     def mouse_release(self):
         self.__action.release().perform()
 
-    # 鼠标悬停
+    # 鼠标悬停   move_to_element(ele)
     def mouse(self, by, value):
         ele = self.ele_presence_wait(by, value)
         self.__action.move_to_element(ele).perform()
 
-    # 鼠标双击
+    # 鼠标双击   double_click(ele)
     def mouse_double(self, by, value):
         ele = self.ele_presence_wait(by, value)
         self.__action.double_click(ele).perform()
+
+    # 鼠标拖动   drag_and_drop(source,target)
+    def mouse_drop(self, locator1, locator2):
+        source = self.ele_presence_wait(*locator1)
+        target = self.ele_presence_wait(*locator2)
+        self.__action.drag_and_drop(source, target).perform()
+
+    # 左击   click(ele)
+    # 右击   context_click(ele)
+
+    '''
+    Windows对象  --浏览器窗体
+    location对象 --页面
+    document对象--页面内元素（定位，点击，输入，元素的属性…）
+
+    js操作  ====  driver.execute_script("js语句")
+    
+    document.getElementById(id属性值).click()           点击元素
+    document.querySelector(css选择器).value='输入的值'    元素输入文本  
+    
+    document.title  页面标题
+    document.getElementById("id属性值").className   class属性值
+    document.querySelector('css选择器').text  元素文本值
+    document.querySelector('css选择器').textContent  元素文本值
+    
+    返回属性值 === return
+    js="return document.getElementById('id属性值').className"
+    res=driver.execute_script(js)
+
+    页面对象 滚动
+    document.body.scrollHeight   页面 滚动高度
+    document.body.scrollWidth    页面 滚动宽度 
+    window.scrollTo(x,y)
+    document.getElementById('id属性值').scrollIntoVie(false)     ture默认 元素顶部  false元素底部
+
+    元素对象 滚动
+    先定位元素  document.getElementById('id属性值')  === ele
+    document.getElementById('id属性值').scrollHeight    滚动条高度     
+    ele.scrollWidth 	     滚动条宽度
+    ele.scrollTo(x,y)	     滑动到指定坐标位置
+    ele.scrollTop=y 	     y轴 滚动
+    ele.scrollLeft=x    	 x轴 
+
+    JQuery获取元素
+    return $("p:contains('包含的字符')")[0]      根据文本获取元素
+    return $(css定位)[0]          css定位
+    return $x(xpath定位)[0]       xpath定位
+
+    js=r"return $x(xpath定位)[0]"
+    ele=driver.execute_script(js) # 执行js获取元素
+    '''

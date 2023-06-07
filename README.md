@@ -21,7 +21,7 @@
 │   ├── page_data                   // 页面元素数据
 │   ├── testcase_data               // 测试用例数据
 ├── Data_Load                       // 数据加载
-│   ├── case_data                   // 函数装饰器 ==》测试用例数据加载
+│   ├── case_data                   // 测试用例数据加载
 │   ├── pom_data                    // 类装饰器   ==》页面对象 元素数据加载
 ├── KeyWord                         // 关键字封装
 │   ├── Browser.py                  // selenium，浏览器操作封装

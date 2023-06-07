@@ -23,7 +23,8 @@ class Home_page(BrowserAct):
     def search(self, text):
         self.ele_presence_wait(*self.Input.search).send_keys(text)  # 搜索框定位 并输入文本
         self.ele_presence_wait(*self.Button.search).click()  # 点击搜索按钮
-        allure.attach(self.screenshot(), "{}:搜索页面截屏".format(text), allure.attachment_type.PNG)
+        allure.attach(self.screenshot(), name="{}:搜索页面截屏".format(text),
+                      attachment_type=allure.attachment_type.PNG)  # PNG类型添加到allure报告中
 
     @allure.step("点击进入 更多")
     def in_more(self):

@@ -28,21 +28,24 @@ def test_01(browser, data):  # browser是conftest中fixture传过来的浏览器
         08 关闭展示页、输入内容 进行翻译
     """
     home = Home_page(browser)
-    home.open_home()
+    home.open_home()  # 百度首页
+    home_url = home.current_url  # 获取当前home页面的url，用于断言
     home.search(data["text"])
     with allure.step("回退到百度首页"):
         home.back()
     home.in_more()
-    more = More_page(browser)
+
+    more = More_page(browser)  # ”更多“
     more.translate()
-    translate = Translate_page(browser)
+
+    translate = Translate_page(browser)  # 百度翻译
     more.handle(1)
 
     translate.close()
     translate.translate(data["text1"])
 
     with allure.step("结果断言检查："):
-        assert home.url == r"https://www.baidu.com/", "断言失败信息"
+        assert home_url == r"https://www.baidu.com/", "断言失败信息"
 
 
 '''
