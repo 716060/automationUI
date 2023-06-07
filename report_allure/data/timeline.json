@@ -4,35 +4,35 @@
   "children" : [ {
     "name" : "DESKTOP-5Q37VTE",
     "children" : [ {
-      "name" : "9500-MainThread",
+      "name" : "10244-MainThread",
       "children" : [ {
         "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
-        "uid" : "735b0ee66388c725",
-        "parentUid" : "b9c8c487bbce64fc1c9cf1dfb1e8ed67",
+        "uid" : "d0ece0934ec8face",
+        "parentUid" : "37ffdd98d9b665d03251e608843bc1f2",
         "status" : "passed",
         "time" : {
-          "start" : 1680439540800,
-          "stop" : 1680439592071,
-          "duration" : 51271
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "{'text': '数学', 'text1': '数学'}" ]
-      }, {
-        "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
-        "uid" : "7147c6e4c31c4022",
-        "parentUid" : "b9c8c487bbce64fc1c9cf1dfb1e8ed67",
-        "status" : "passed",
-        "time" : {
-          "start" : 1680439600162,
-          "stop" : 1680439656083,
-          "duration" : 55921
+          "start" : 1686121220130,
+          "stop" : 1686121228736,
+          "duration" : 8606
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "{'text': '语文', 'text1': '语文'}" ]
+      }, {
+        "name" : "打开百度首页，从【更多】进入【百度翻译】进行翻译",
+        "uid" : "95235565aa2f0a6f",
+        "parentUid" : "37ffdd98d9b665d03251e608843bc1f2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1686121201364,
+          "stop" : 1686121211568,
+          "duration" : 10204
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'text': '数学', 'text1': '数学'}" ]
       } ],
-      "uid" : "b9c8c487bbce64fc1c9cf1dfb1e8ed67"
+      "uid" : "37ffdd98d9b665d03251e608843bc1f2"
     } ],
     "uid" : "0e0304661899a3679ffd97c0c2d9e224"
   } ]

@@ -17,4 +17,4 @@
 - type: button
   name: close
   selector: css selector
-  value: span.app-guide-close
+  value: a.desktop-guide-close

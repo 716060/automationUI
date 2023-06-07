@@ -3,13 +3,43 @@
   <component name="ChangeListManager">
     <list default="true" id="884019f3-9cc8-4862-90ce-141c816c2dde" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Load/case_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Load/case_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Load/page_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Load/page_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KeyWord/Browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/KeyWord/Browser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Page/test_baidu/baidu_home.py" beforeDir="false" afterPath="$PROJECT_DIR$/Page/test_baidu/baidu_home.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestCase/test_case_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/TestCase/test_case_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/attachments/59c4b7e126f7124c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/attachments/8c9a47d624cfd633.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/test-cases/7147c6e4c31c4022.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/test-cases/735b0ee66388c725.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/2d60114b-4a96-44e8-84a4-64b6c96ca7cf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/373b3b3b-a2ec-47ba-aac3-07268eebf08d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/621d1752-9a58-4906-a42c-c627eb85095f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/6cc8e9df-0197-4144-97bb-dc43decadf69-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/72e44eed-b543-4fb4-a0ae-d1b5cc1abbba-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/7c310747-faba-42e2-81c7-30269bb6687c-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/924dcf7b-cbc2-4b2a-b35a-16a7d25a39e8-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/e131e07f-783b-4dc0-940f-a8d6fda51611-container.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,15 +67,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Pycharm/selenium+pytest框架",
-    "nodejs_package_manager_path": "npm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Pycharm/selenium+pytest框架&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Pycharm\selenium+pytest框架\Data" />
@@ -55,7 +85,7 @@
       <recent name="D:\Pycharm\selenium+pytest框架" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.case_data">
+  <component name="RunManager" selected="Python.run">
     <configuration name="case_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium+pytest框架" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -183,8 +213,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.case_data" />
         <item itemvalue="Python.run" />
+        <item itemvalue="Python.case_data" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python tests.Python tests for test_case_01.test_01" />
@@ -212,6 +242,7 @@
       <workItem from="1685602144111" duration="235000" />
       <workItem from="1685965224503" duration="347000" />
       <workItem from="1685965708923" duration="15107000" />
+      <workItem from="1685986134858" duration="939000" />
     </task>
     <servers />
   </component>
@@ -229,22 +260,11 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/selenium_pytest$.coverage" NAME=" Coverage Results" MODIFIED="1679754196650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
     <SUITE FILE_PATH="coverage/selenium_pytest$test.coverage" NAME="test Coverage Results" MODIFIED="1679755108284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_pytest$baidu_home.coverage" NAME="baidu_home Coverage Results" MODIFIED="1679662018770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$run.coverage" NAME="run Coverage Results" MODIFIED="1680439537357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$run.coverage" NAME="run Coverage Results" MODIFIED="1686120688296" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_pytest$baidu_more.coverage" NAME="baidu_more Coverage Results" MODIFIED="1679662002505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
     <SUITE FILE_PATH="coverage/selenium_pytest$baidu_translate.coverage" NAME="baidu_translate Coverage Results" MODIFIED="1679661984102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
     <SUITE FILE_PATH="coverage/selenium_pytest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1680438640811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />

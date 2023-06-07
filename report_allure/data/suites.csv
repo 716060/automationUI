@@ -1,5 +1,5 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sun Apr 02 20:46:40 CST 2023","Sun Apr 02 20:47:36 CST 2023","55921","TestCase","test_case_01","","","","打开百度首页，从【更多】进入【百度翻译】进行翻译","
+"passed","Wed Jun 07 15:00:01 CST 2023","Wed Jun 07 15:00:11 CST 2023","10204","TestCase","test_case_01","","","","打开百度首页，从【更多】进入【百度翻译】进行翻译","
         01 打开百度首页
         02 输入内容 进行搜索
         03 回退到百度首页
@@ -9,7 +9,7 @@
         07 切换到 翻译 页签
         08 关闭展示页、输入内容 进行翻译
     "
-"passed","Sun Apr 02 20:45:40 CST 2023","Sun Apr 02 20:46:32 CST 2023","51271","TestCase","test_case_01","","","","打开百度首页，从【更多】进入【百度翻译】进行翻译","
+"passed","Wed Jun 07 15:00:20 CST 2023","Wed Jun 07 15:00:28 CST 2023","8606","TestCase","test_case_01","","","","打开百度首页，从【更多】进入【百度翻译】进行翻译","
         01 打开百度首页
         02 输入内容 进行搜索
         03 回退到百度首页
