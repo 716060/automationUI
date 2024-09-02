@@ -1,14 +1,12 @@
-# -*- coding:utf-8 -*-
-# @Time  :2023/3/23 23:34
-# @AUTHOR:希耶谢
-
 '''
 对浏览器操作的一些封装、关键字封装
 '''
 
 from selenium.webdriver import ActionChains, Keys  # 键盘Keys和鼠标ActionChains操作
+from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
+from time import sleep
 
 
 # 浏览器的操作封装
@@ -111,7 +109,8 @@ class BrowserAct():
         )
 
     # 查找元素 + 元素存在dom树显性等待  单数
-    def ele_presence_wait(self, by, value):
+    def ele_presence_wait(self, by, value, num=None):
+        value = value.format(num) if num is not None else value
         locator = (by, value)
         self.__wait.until(ec.presence_of_element_located(locator))
         ele = self.__d.find_element(by, value)
@@ -119,14 +118,16 @@ class BrowserAct():
         return ele
 
     # 查找元素 + 元素存在dom树显性等待  复数
-    def eles_presence_wait(self, by, value):
+    def eles_presence_wait(self, by, value, num=None):
+        value = value.format(num) if num is not None else value
         locator = (by, value)
         self.__wait.until(ec.presence_of_all_elements_located(locator))
         eles = self.__d.find_elements(by, value)
         return eles
 
     # 查找元素 + 元素存在dom树 且可见 显性等待  单数
-    def ele_visibility_wait(self, by, value):
+    def ele_visibility_wait(self, by, value, num=None):
+        value = value.format(num) if num is not None else value
         locator = (by, value)
         self.__wait.until(ec.visibility_of_element_located(locator))
         ele = self.__d.find_element(by, value)
@@ -134,7 +135,8 @@ class BrowserAct():
         return ele
 
     # 查找元素 + 元素存在dom树 且可见 显性等待  复数
-    def eles_visibility_wait(self, by, value):
+    def eles_visibility_wait(self, by, value, num=None):
+        value = value.format(num) if num is not None else value
         locator = (by, value)
         self.__wait.until(ec.visibility_of_any_elements_located(locator))
         eles = self.__d.find_element(by, value)
@@ -152,6 +154,19 @@ class BrowserAct():
         locator = (by, value)
         result = self.__wait.until(ec.text_to_be_present_in_element_value(locator, text))
         return result
+
+    def ele_value_normal(self, by, value):
+        return self.__d.find_element(by, value)
+
+    def ele_value_wait_by_sleep(self, by, value, ownDriver, num=None):
+        value = value.format(num) if num is not None else value
+        ele = ownDriver.find_element(by, value)
+        return ele
+
+    def eles_value_wait_by_sleep(self, by, value, ownDriver, num=None):
+        value = value.format(num) if num is not None else value
+        ele = ownDriver.find_elements(by, value)
+        return ele
 
     # 元素截屏
     def ele_screenshot(self, by, value, filename):

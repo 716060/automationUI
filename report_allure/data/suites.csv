@@ -1,21 +1,9 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Jun 07 15:00:01 CST 2023","Wed Jun 07 15:00:11 CST 2023","10204","TestCase","test_case_01","","","","打开百度首页，从【更多】进入【百度翻译】进行翻译","
-        01 打开百度首页
-        02 输入内容 进行搜索
-        03 回退到百度首页
-        04 首页点击 更多
-        05 切换到 更多 页签
-        06 更多 页面点击 翻译
-        07 切换到 翻译 页签
-        08 关闭展示页、输入内容 进行翻译
+"passed","Fri Jun 28 17:38:35 CST 2024","Fri Jun 28 17:38:41 CST 2024","6610","TestCase","test_case_nvwa","","","","打开并进入女娲首页","
+        01 打开女娲登陆界面
+        02 输入账号密码登陆
+        03 创建新标签列表
     "
-"passed","Wed Jun 07 15:00:20 CST 2023","Wed Jun 07 15:00:28 CST 2023","8606","TestCase","test_case_01","","","","打开百度首页，从【更多】进入【百度翻译】进行翻译","
-        01 打开百度首页
-        02 输入内容 进行搜索
-        03 回退到百度首页
-        04 首页点击 更多
-        05 切换到 更多 页签
-        06 更多 页面点击 翻译
-        07 切换到 翻译 页签
-        08 关闭展示页、输入内容 进行翻译
-    "
+"broken","Fri Jun 28 17:38:41 CST 2024","Fri Jun 28 17:38:41 CST 2024","51","TestCase","test_case_nvwa","","","","新建人群",""
+"skipped","Fri Jun 28 17:38:41 CST 2024","Fri Jun 28 17:38:41 CST 2024","0","TestCase","test_case_nvwa","","","","新建标签列表",""
+"skipped","Fri Jun 28 17:38:41 CST 2024","Fri Jun 28 17:38:41 CST 2024","0","TestCase","test_case_nvwa","","","","新建基础标签",""

@@ -1,8 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="884019f3-9cc8-4862-90ce-141c816c2dde" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/selenium+pytest框架.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/selenium+pytest框架.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/page_data/baidu_home.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/page_data/baidu_more.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/page_data/baidu_translate.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/page_data/baidu_translate.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/page_data/test_baidu.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/testcase_data/test_case_01.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Load/case_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Load/case_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data_Load/page_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Load/page_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyWord/Browser.py" beforeDir="false" afterPath="$PROJECT_DIR$/KeyWord/Browser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/KeyWord/Sql_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/KeyWord/Sql_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/test_baidu/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/test_baidu/baidu_home.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/test_baidu/baidu_more.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Page/test_baidu/baidu_translate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGui/file_upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGui/file_upload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGui/location.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGui/location.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyAutoGui/pyautogui_use.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyAutoGui/pyautogui_use.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCase/test_case_01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/attachments/45c6a59be4afec96.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/attachments/4fb8354b7f5dd8b9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/behaviors.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/behaviors.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/categories.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/categories.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/packages.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/packages.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/suites.csv" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/suites.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/test-cases/95235565aa2f0a6f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/test-cases/d0ece0934ec8face.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/data/timeline.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/data/timeline.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/export/influxDbData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/export/influxDbData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/export/prometheusData.txt" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/export/prometheusData.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/history.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/history/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/history/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/plugins/behaviors/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/plugins/behaviors/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/plugins/packages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/plugins/packages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/plugins/screen-diff/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/plugins/screen-diff/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/plugins/screen-diff/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/plugins/screen-diff/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/behaviors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/behaviors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/categories-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/categories-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/categories.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/categories.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/duration-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/duration-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/duration.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/duration.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/environment.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/environment.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/executors.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/executors.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/history-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/history-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/retry-trend.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/retry-trend.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/severity.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/severity.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/status-chart.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/status-chart.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/suites.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/suites.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report_allure/widgets/summary.json" beforeDir="false" afterPath="$PROJECT_DIR$/report_allure/widgets/summary.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/06dfd36e-7593-4f08-97d5-82345fbf335b-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/22424b04-0618-419a-9a6c-fbc5d1f7be67-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/3406e859-6746-40e8-9b5f-0efa890fd2f4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/643fc284-5792-4780-b878-ffb389367190-attachment.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/956c1c6d-d2d0-4fae-90c6-afd92ca479cd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d2cba7f8-42ca-4b9c-adc9-3c4ae71707cf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d32f5f60-6f21-45b9-8f67-ff6606f35aa0-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result/d7b38956-1de4-4748-994c-03cafd6c0467-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run.py" beforeDir="false" afterPath="$PROJECT_DIR$/run.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +90,26 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2NFnV9dOpiJAOxCRN1WqGpzHK99" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -32,12 +120,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_case_nvwa.test_01.executor": "Run",
+    "Python.1.executor": "Run",
+    "Python.case_data.executor": "Run",
+    "Python.del.executor": "Run",
+    "Python.file_upload.executor": "Run",
+    "Python.page_data.executor": "Run",
+    "Python.picture.executor": "Run",
+    "Python.run.executor": "Run",
+    "Python.sel.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Pycharm/selenium+pytest框架",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/koolearn/cuijianwei/PyProject/automationUI",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -45,28 +148,29 @@
       <recent name="D:\Pycharm\selenium+pytest框架\Data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="D:\Pycharm\selenium+pytest框架\PyAutoGui" />
       <recent name="D:\Pycharm\selenium+pytest框架" />
       <recent name="D:\Pycharm\selenium+pytest框架\TestCase" />
       <recent name="D:\Pycharm\selenium+pytest框架\os_lacation" />
-      <recent name="D:\Pycharm\selenium+pytest框架\Data\page_data" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.file_upload">
-    <configuration name="file_upload" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.run">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium+pytest框架" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyAutoGui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyAutoGui/file_upload.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,20 +179,44 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="location" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="case_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium+pytest框架" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyAutoGui" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data_Load" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyAutoGui/location.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data_Load/case_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="del" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="selenium+pytest框架" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/del.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -99,6 +227,7 @@
     </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="selenium+pytest框架" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -119,8 +248,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ttt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="picture" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium+pytest框架" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -132,7 +262,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\Pycharm\selenium+pytest框架\PyAutoGui\ttt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/picture.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,45 +271,46 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for PyAutoGui.file_upload" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="run" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="selenium+pytest框架" />
+      <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;PyAutoGui.file_upload&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in file_upload.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="selenium+pytest框架" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/PyAutoGui/file_upload.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.file_upload" />
-        <item itemvalue="Python.location" />
-        <item itemvalue="Python tests.Python tests in file_upload.py" />
-        <item itemvalue="Python tests.Python tests for PyAutoGui.file_upload" />
-        <item itemvalue="Python.ttt" />
+        <item itemvalue="Python.run" />
+        <item itemvalue="Python.case_data" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.del" />
+        <item itemvalue="Python.picture" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PY-241.15989.155" />
+        <option value="bundled-python-sdk-babbdf50b680-7c6932dee5e4-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.15989.155" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -204,11 +335,36 @@
       <workItem from="1685965708923" duration="15107000" />
       <workItem from="1685986134858" duration="2255000" />
       <workItem from="1686745480259" duration="5446000" />
+      <workItem from="1716863974495" duration="13565000" />
+      <workItem from="1716947148429" duration="57000" />
+      <workItem from="1716947248918" duration="5201000" />
+      <workItem from="1716980646048" duration="1728000" />
+      <workItem from="1717035225694" duration="11824000" />
+      <workItem from="1717493000885" duration="2306000" />
+      <workItem from="1717666351963" duration="2938000" />
+      <workItem from="1717728218590" duration="2740000" />
+      <workItem from="1718536340911" duration="16000" />
+      <workItem from="1718609128614" duration="2568000" />
+      <workItem from="1718698199270" duration="6888000" />
+      <workItem from="1718764805198" duration="1000" />
+      <workItem from="1718783692658" duration="5769000" />
+      <workItem from="1718878630225" duration="3489000" />
+      <workItem from="1718958707977" duration="5894000" />
+      <workItem from="1719307371986" duration="4560000" />
+      <workItem from="1719476235070" duration="9394000" />
+      <workItem from="1719555842255" duration="7611000" />
+      <workItem from="1724930529357" duration="280000" />
+      <workItem from="1725263059649" duration="167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+    <option featureType="dependencySupport" implementationName="python:pyspark" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -222,17 +378,26 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/selenium_pytest$test.coverage" NAME="test Coverage Results" MODIFIED="1679755108284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$.coverage" NAME=" Coverage Results" MODIFIED="1687175916185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$baidu_home.coverage" NAME="baidu_home Coverage Results" MODIFIED="1679662018770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$run.coverage" NAME="run Coverage Results" MODIFIED="1686121196545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$baidu_more.coverage" NAME="baidu_more Coverage Results" MODIFIED="1679662002505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$baidu_translate.coverage" NAME="baidu_translate Coverage Results" MODIFIED="1679661984102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1687173619388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1680438640811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$case_data.coverage" NAME="case_data Coverage Results" MODIFIED="1685965962656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Load" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$file_uploader.coverage" NAME="file_uploader Coverage Results" MODIFIED="1687172607199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/os_lacation" />
-    <SUITE FILE_PATH="coverage/selenium_pytest$file_upload.coverage" NAME="file_upload Coverage Results" MODIFIED="1687176929628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyAutoGui" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$run.coverage" NAME="run Coverage Results" MODIFIED="1719567511176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/selenium_pytest$location.coverage" NAME="location Coverage Results" MODIFIED="1687176527082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyAutoGui" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$case_data.coverage" NAME="case_data Coverage Results" MODIFIED="1719563618001" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Load" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$sel.coverage" NAME="sel Coverage Results" MODIFIED="1716866813078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$file_upload.coverage" NAME="file_upload Coverage Results" MODIFIED="1717052206791" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyAutoGui" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$.coverage" NAME=" Coverage Results" MODIFIED="1687175916185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$1.coverage" NAME="1 Coverage Results" MODIFIED="1719556829394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$picture.coverage" NAME="picture Coverage Results" MODIFIED="1718791140943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$del.coverage" NAME="del Coverage Results" MODIFIED="1719308271281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$baidu_more.coverage" NAME="baidu_more Coverage Results" MODIFIED="1679662002505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$case_data.coverage" NAME="case_data Coverage Results" MODIFIED="1685965962656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Load" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$test.coverage" NAME="test Coverage Results" MODIFIED="1679755108284" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$file_uploader.coverage" NAME="file_uploader Coverage Results" MODIFIED="1687172607199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/os_lacation" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1680438640811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$page_data.coverage" NAME="page_data Coverage Results" MODIFIED="1717731607097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Data_Load" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$ttt.coverage" NAME="ttt Coverage Results" MODIFIED="1687173619388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$file_upload.coverage" NAME="file_upload Coverage Results" MODIFIED="1687176929628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PyAutoGui" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$run.coverage" NAME="run Coverage Results" MODIFIED="1686121196545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$baidu_home.coverage" NAME="baidu_home Coverage Results" MODIFIED="1679662018770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
+    <SUITE FILE_PATH="coverage/selenium_pytest$baidu_translate.coverage" NAME="baidu_translate Coverage Results" MODIFIED="1679661984102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Page/test_baidu" />
+    <SUITE FILE_PATH="coverage/pytest_allure_ui$.coverage" NAME=" Coverage Results" MODIFIED="1716974991938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase" />
   </component>
 </project>

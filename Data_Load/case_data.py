@@ -1,6 +1,3 @@
-# -*- coding:utf-8 -*-
-# @Time  :2023/3/25 22:41
-# @AUTHOR:希耶谢
 import yaml
 
 
@@ -11,4 +8,4 @@ def load_yaml(path):
     return data
 
 if __name__ == '__main__':
-    print(load_yaml(r"../Data/testcase_data/test_case_01.yaml"))
+    print(load_yaml(r"../Data/testcase_data/nvwa.yaml")['username'])

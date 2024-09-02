@@ -1,0 +1,7 @@
+- username: cuijianwei
+  passwd: Cjw19951008.
+  verificationCode: 123456
+  selected: ['用户测试标签', '待选择', '否', '下拉', '多选']
+  newAudience:
+    populationName: cjw自动化回归测试
+    populationDefinition: 自动化回归

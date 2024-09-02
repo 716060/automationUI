@@ -1,7 +1,3 @@
-# -*- coding:utf-8 -*-
-# @Time  :2023/6/19 20:16
-# @AUTHOR:希耶谢
-
 import pyautogui
 
 # 获取屏幕（宽，高）

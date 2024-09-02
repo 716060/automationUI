@@ -1,7 +1,3 @@
-# -*- coding:utf-8 -*-
-# @Time  :2023/6/19 19:05
-# @AUTHOR:希耶谢
-
 import pyautogui
 from selenium import webdriver
 from selenium.webdriver.common.by import By

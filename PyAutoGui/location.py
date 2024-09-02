@@ -1,7 +1,3 @@
-# -*- coding:utf-8 -*-
-# @Time  :2023/6/14 20:25
-# @AUTHOR:希耶谢
-
 import os
 import time
 import pyautogui

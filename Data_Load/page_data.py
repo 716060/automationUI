@@ -1,7 +1,3 @@
-# -*- coding:utf-8 -*-
-# @Time  :2023/3/24 2:40
-# @AUTHOR:希耶谢
-
 import os
 import json
 import yaml
